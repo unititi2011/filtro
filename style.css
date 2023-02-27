@@ -1,0 +1,23 @@
+body {
+    background-image: url(praia.jpg);
+    background-size: cover;
+    text-align: center;
+}
+h3{
+    color: aqua;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Playfair Display', serif;
+}
+button{
+    background-color:cyan ;
+}
+canvas{
+border: 2px dashed yellow;
+animation-name:animação;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes animação{
+    from{box-shadow: 2px 2px 38px orange;}
+    to{box-shadow: 2px 2px 38px yellow;}
+}
